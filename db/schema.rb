@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2022_01_06_075432) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_admin_users_on_email", unique: true
-    t.index [nil], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
 end
